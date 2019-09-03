@@ -1,4 +1,3 @@
-
 word_list = list()
 
 def libs():
