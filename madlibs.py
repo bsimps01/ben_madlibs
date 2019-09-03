@@ -1,3 +1,6 @@
+from __future__ import print_function
+from colors import red, green, blue, yellow, magenta, cyan
+
 word_list = list()
 
 def libs():
@@ -17,5 +20,5 @@ def libs():
     word_list.append(sport)
 
 
-    print("I went to {} then cruised down the street in my {} to get some grub over at {}. Went to the {} to get the scoop. {} out there shooting some hoop. All I wanted to do was go home and play my {} but then quickly realized I didn't get enough {}. Headed back home and went to sleep after watching {}.".format( location, car, location, location, noun, instrument, animal, sport))
+    print("I went to {} then cruised down the street in my {} to get some grub over at {}. Went to the {} to get the scoop. {} out there shooting some hoop. All I wanted to do was go home and play my {} but then quickly realized I didn't get enough {}. Headed back home and went to sleep after watching {}.".format( red(location), green(car), blue(location), yellow(location), magenta(noun), cyan(instrument), blue(animal), magenta(sport)))
 libs()
